@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(215, 131, 171);
+  }
+  
+  .vasak, .parem {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+  }
+  
+  .pealkiri {
+    color: rgb(255, 0, 200);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 42px;
+    text-align: center;
+    text-shadow: 2px 4px 5px #ea98d8;
+  }
+  
+  .sisu {
+    color: #0c0c0c;
+    text-align: justify;
+  }
+  
+  .link {
+    margin: 20px 0;
+  }
+  
+  .link a {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(243, 8, 203, 0.993);
+  }
+  
+  .pilt {
+    box-shadow: 2px 5px 10px 3px #a81aa8;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  
+  .tabel {
+    border: 1px solid black;
+  }
+  
+  .tabel th {
+    border-bottom: 1px solid rgb(188, 11, 150);
+  }
+  
+  .tabel thead {
+    background-color: rgb(255, 0, 153)
+  }
